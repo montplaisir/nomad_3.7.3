@@ -1,0 +1,41 @@
+
+NOMAD - version 3.7.3 has been created by {
+	Charles Audet        - Ecole Polytechnique de Montreal
+	Sebastien Le Digabel - Ecole Polytechnique de Montreal
+	Christophe Tribes    - Ecole Polytechnique de Montreal
+} 
+
+The copyright of NOMAD - version 3.7.3 is owned by {
+	Sebastien Le Digabel - Ecole Polytechnique de Montreal
+	Christophe Tribes    - Ecole Polytechnique de Montreal
+} 
+
+NOMAD version 3 is a new version of Nomad v1 and v2, it has been funded by AFOSR and Exxon Mobil.
+Nomad v1 and v2 were created and developed by Mark A. Abramson from The Boeing Company, Charles Audet and Gilles Couture from Ecole Polytechnique de Montreal, and John E. Dennis Jr. from Rice University, and were funded by AFOSR and Exxon Mobil.
+
+Download  : www.gerad.ca/nomad
+License   : '$NOMAD_HOME/src/lgpl.txt'
+User guide: '$NOMAD_HOME/doc/user_guide.pdf'
+Examples  : '$NOMAD_HOME/examples'
+Tools     : '$NOMAD_HOME/tools'
+
+Please report bugs to nomad@gerad.ca
+
+MADS run {
+
+	BBE	(	SOL	)	OBJ
+
+	  2	(	0.0000000000 0.5366563146 0.5813776741 -0.2683281573 0.2683281573 )	288.7926372100 (PhaseOne)
+	  3	(	0.0000000000 2.1466252584 2.3255106966 -1.0733126292 1.0733126292 )	0.0000000000 (PhaseOne)
+	  3	(	0.0000000000 2.1466252584 2.3255106966 -1.0733126292 1.0733126292 )	1.0733100000
+	 10	(	0.4919349550 2.8174456516 2.1801662781 -0.8720665112 1.0062305899 )	1.0062300000
+	 11	(	1.9677398202 4.8299068314 1.7441330224 -0.2683281573 0.8049844719 )	0.8049840000
+	 19	(	0.9838699101 1.0733126292 1.7441330224 1.0733126292 -3.4882660449 )	-3.4882700000
+	 31	(	1.9677398202 0.5366563146 1.7441330224 0.2683281573 -3.7565942022 )	-3.7565900000
+	100	(	1.9677398202 0.5366563146 1.7441330224 0.2683281573 -3.7565942022 )	-3.7565900000
+
+} end of run (max number of blackbox evaluations)
+
+blackbox evaluations                     : 100
+best infeasible solution (min. violation): ( 0.9838699101 1.073312629 1.162755348 1.073312629 -4.024922359 ) h=0.287344 f=-4.02492
+best feasible solution                   : ( 1.96773982 0.5366563146 1.744133022 0.2683281573 -3.756594202 ) h=0 f=-3.75659
